@@ -1,0 +1,4 @@
+# Activate ONLY after bootstrap apply succeeds; follow README migration steps.
+terraform {
+  backend "s3" {}
+}

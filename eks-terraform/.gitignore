@@ -1,0 +1,9 @@
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+*.tfplan
+crash.log
+*.tfvars
+!*.tfvars.example
+backend.hcl
+# Commit .terraform.lock.hcl after terraform init.

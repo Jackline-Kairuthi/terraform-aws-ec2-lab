@@ -1,0 +1,3 @@
+aws_region        = "us-east-1"
+state_bucket_name = "REPLACE-WITH-A-GLOBALLY-UNIQUE-LOWERCASE-NAME"
+lock_table_name   = "eks-lab-terraform-locks"
