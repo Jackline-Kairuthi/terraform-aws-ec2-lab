@@ -1,0 +1,17 @@
+**/.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+*.tfplan.json
+*.tfplan.config.json
+__pycache__/
+*.pyc
+crash.log
+*.auto.tfvars.json
+*.tfvars
+.setup.json
+.setup.lock
+.setup-complete
+bootstrap/backend.tf
+# backend.tf at root is generated in place; it contains no credentials.
+# Commit .terraform.lock.hcl in root and bootstrap after successful init.
